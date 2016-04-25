@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to loop through a block of code as long as i is less than 10.</p>
+
+
+
+<p id="demo"></p>
+
+<script>
+
+    var i = 0;
+    var x = Math.floor((Math.random() * 10) ); // round ? o floor
+    var limite = 10;
+
+    var a;
+    do {
+    	i++;
+        a = prompt("Intento " + i);
+        
+        if (a > x) {
+        	alert("x es menor");
+        }
+        if (a < x)  {
+        	alert("x es mayor");
+        }
+        console.log(x + ' ' + i);
+    }
+    while (a != x && (i < limite ));
+        if (a == x)  {
+        	alert("ACERTASTE!!! -- x es igual");
+        }
+        if(i >= limite){
+        	alert("Agotaste los " + limite + " intentos");
+        }  
+  
+
+</script>
+
+</body>
+</html>

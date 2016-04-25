@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This example calls a function to convert from Fahrenheit to Celsius:</p>
+<p id="demo"></p>
+
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+function toCelsius(f) {
+    return (5/9) * (f-32);
+}
+do {
+   var a = prompt("Temperatura");
+}
+while( a < 0 || a >120);
+document.getElementById("demo").innerHTML = toCelsius(a);
+
+function myFunction2(name) {
+    return "Hello " + name;
+}
+document.getElementById("demo2").innerHTML = myFunction2('John');
+
+
+// Define and call the function here
+function myFunction3(messa) {
+    document.getElementById("demo3").innerHTML = messa;
+}
+myFunction3("HOLA MUNDO");
+</script>
+
+</body>
+</html>

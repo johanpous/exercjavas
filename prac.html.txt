@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The + Operator</h1>
+
+<p id="demo"></p>
+
+<script>
+var x = 5;
+var y = 2;
+var z = x + y;
+
+do {
+	var a = prompt("Edat");
+}
+while (a > 120);
+</script>
+
+</body>
+</html>
